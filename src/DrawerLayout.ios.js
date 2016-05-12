@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {PropTypes} from 'react';
 import autobind from 'autobind-decorator';
 import dismissKeyboard from 'react-native-dismiss-keyboard';
 import ReactNative from 'react-native';
@@ -8,7 +8,6 @@ const {
   Dimensions,
   InteractionManager,
   PanResponder,
-  PropTypes,
   StyleSheet,
   TouchableWithoutFeedback,
   View,
